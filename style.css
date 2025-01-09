@@ -147,7 +147,7 @@ h2 {
     flex-direction: column;
     width: 800px;
     align-self: center;
-    justify-self: center;
+    margin: auto;
 }
 
 .call {
