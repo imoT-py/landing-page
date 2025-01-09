@@ -1,10 +1,11 @@
-/* kell ide a font type */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
     display: flex;
     flex-direction: column;
     margin: 0px;
     padding: 0px 0px;
+    font-family: Roboto;
 }
 
 .header {
@@ -19,14 +20,62 @@ ul {
     display: flex;
     gap: 20px;
     list-style: none;
-    /* ide a font size */
+    font-size: 18px;
 }
 
 a {
     text-decoration: none;
     color:rgb(243, 236, 236);
+
 }
 
 .logo {
     height: 75px;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    padding: 50px 400px;
+    background-color: #1F2937;
+    gap: 50px;
+}
+
+.left-hero {
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+    justify-content: center;
+}
+
+.hero-img {
+    height: 300px;
+}
+
+h1  {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+    margin:0;
+    
+}
+
+.left-hero > p {
+    font-size: 18px;
+    color: #f9faf8;
+    padding: 0px;
+    margin: 5px 0px 15px 0px;
+    
+}
+
+.left-hero > button {
+    width: 140px;
+    background-color: #3882F6;
+    color: #f9faf8;
+    border-radius: 10px;
+    border: 0px;
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 700;
+    padding: 10px 30px;
 }
