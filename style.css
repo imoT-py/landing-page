@@ -36,7 +36,7 @@ a {
 .hero {
     display: flex;
     justify-content: center;
-    padding: 50px 400px;
+    padding: 75px 400px 125px 400px;
     background-color: #1F2937;
     gap: 50px;
 }
